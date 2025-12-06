@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header class="">
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow" >
+    <div class="container">
+        <img src="images/WhatsApp Image 2025-11-19 à 16.29.36_93f96b8f.jpg" 
+                 alt="Logo Aïcha Anne" 
+                 width="40" 
+                 height="30"
+                 
+                  
+                 class="d-inline-block align-text-top me-2">
+        <a class="navbar-brand fw-bold text-info" href="#accueil">
+            <i class="fas fa-code me-2"></i> Aïcha Anne | Digital
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mr-10">
+                <li class="nav-item">
+                    <a class="nav-link" href="#accueil">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#a-propos">À Propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#competences">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projets">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    </header>
+   <div id="heroCarousel" class="m-20 carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+        
+        <div class="carousel-item active">
+            <header id="accueil" class="bg-light py-5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-7 text-center text-md-start">
+                            <p class="text-info lead fw-bold mb-2">👋 Bienvenue sur mon Portfolio Digital</p>
+                            <h1 class="display-3 fw-bolder mb-3">
+                                Je suis Aïcha Anne, <br>
+                                <span class="text-primary">Créatrice d'Expériences Web.</span>
+                            </h1>
+                            <p class="lead text-muted mb-4">
+                                Transformer des idées complexes en solutions numériques élégantes et performantes.
+                            </p>
+                            <a href="#projets" class="btn btn-primary btn-lg shadow-sm me-3">Voir mes Projets</a>
+                            <a href="#contact" class="btn btn-outline-dark btn-lg">Me Contacter</a>
+                        </div>
+                        <div class="col-md-5 text-center mt-4 mt-md-0">
+                            <img src="images/WhatsApp Image 2025-11-19 à 16.29.36_93f96b8f.jpg" class="rounded-circle w-75 shadow-lg" alt="Photo de profil d'Aïcha Anne">
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        
+        <div class="carousel-item">
+            <div class="bg-primary text-white py-5 py-md-6 text-center">
+                <div class="container py-5">
+                    <i class="fas fa-laptop-code fa-3x mb-3"></i>
+                    <h2 class="display-4 fw-bolder">Devenez Agile et Performant</h2>
+                    <p class="lead mb-4">
+                        Maîtrise complète des outils Front-end (HTML, CSS, JS, React) et Back-end (Python/Django).
+                    </p>
+                    <a href="#competences" class="btn btn-light btn-lg">Découvrez mes Compétences</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="carousel-item">
+            <div class="bg-dark text-white py-5 py-md-6 text-center">
+                <div class="container py-5">
+                    <i class="fas fa-drafting-compass fa-3x mb-3 text-info"></i>
+                    <h2 class="display-4 fw-bolder">Un Design centré sur l'Utilisateur</h2>
+                    <p class="lead mb-4">
+                        Des interfaces intuitives, esthétiques et optimisées pour la conversion (UI/UX Design).
+                    </p>
+                    <a href="#projets" class="btn btn-outline-info btn-lg">Voir les Études de Cas</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Précédent</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Suivant</span>
+    </button>
+    
+</div>
+    <main>
+        <!-- A propos -->
+        <section id="a-propos" class="py-5">
+    <div class="container">
+        
+        <div class="text-center mb-5">
+            <h2 class="display-4 fw-bold">À Propos de Moi</h2>
+            <p class="lead text-muted">Mon parcours, ma philosophie et mon engagement dans le digital.</p>
+        </div>
+        
+        <div class="row align-items-center">
+            
+            <div class="col-lg-7 mb-4 mb-lg-0">
+                
+                <h3 class="fw-bold text-primary mb-3">La Passion au service du Code</h3>
+                
+                <p>
+                    Je m’appelle Aïcha ANNE Étudiante en numérique et jeune développeuse passionnée, je conçois des projets web et j’aime résoudre des problèmes grâce à la logique et au code. Sérieuse, curieuse et motivée, je maîtrise les bases du développement (HTML, CSS, logique informatique…) et je suis toujours prête à apprendre de nouvelles technologies. Organisée et créative, je m’adapte facilement aux projets et je travaille aussi bien en autonomie qu’en équipe. Mon objectif est de renforcer mes compétences et d’évoluer dans le domaine du développement numérique.
+                </p>
+                
+                <a href="#contact" class="btn btn-outline-primary mt-3">Discutons de votre Projet</a>
+            </div>
+            
+            <div class="col-lg-5">
+                <div class="card bg-light border-0 shadow-lg p-4">
+                    <h4 class="text-center mb-4 text-dark">Mon Profil en Chiffres</h4>
+                    
+                    <div class="d-flex justify-content-around text-center">
+                        <div>
+                            <i class="fas fa-laptop-code fa-3x text-info"></i>
+                            <p class="fw-bold h4 mt-2">5+</p>
+                            <p class="text-muted small">Années d'Expérience</p>
+                        </div>
+                        <div>
+                            <i class="fas fa-project-diagram fa-3x text-info"></i>
+                            <p class="fw-bold h4 mt-2">15+</p>
+                            <p class="text-muted small">Projets Finalisés</p>
+                        </div>
+                        <div>
+                            <i class="fas fa-rocket fa-3x text-info"></i>
+                            <p class="fw-bold h4 mt-2">100%</p>
+                            <p class="text-muted small">Satisfaction Client</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            
+        </div>
+    </div>
+</section>
+    <!-- competence -->
+     <section id="competences" class="py-5 bg-light">
+    <div class="container">
+        
+        <div class="text-center mb-5">
+            <h2 class="display-4 fw-bold">Compétences Techniques</h2>
+            <p class="lead text-muted">Les outils et langages que j'utilise pour donner vie à vos projets.</p>
+        </div>
+        
+        <div class="row">
+            
+            <div class="col-lg-6 mb-4">
+                <div class="card shadow-sm h-100 border-0">
+                    <div class="card-body p-4">
+                        <h4 class="card-title text-primary mb-4">
+                            <i class="fas fa-desktop me-2"></i> Développement Front-end
+                        </h4>
+                        
+                        <div class="mb-3">
+                            <h6 class="mb-1 d-flex justify-content-between">
+                                <span>HTML5</span>
+                                <span class="fw-bold">95%</span>
+                            </h6>
+                            <div class="progress" role="progressbar" aria-label="HTML/CSS progress" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-success" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <h6 class="mb-1 d-flex justify-content-between">
+                                <span>CSS</span>
+                                <span class="fw-bold">85%</span>
+                            </h6>
+                            <div class="progress" role="progressbar" aria-label="JavaScript progress" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-info" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <h6 class="mb-1 d-flex justify-content-between">
+                                <span>JavaScript</span>
+                                <span class="fw-bold">75%</span>
+                            </h6>
+                            <div class="progress" role="progressbar" aria-label="React progress" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-warning" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-0">
+                            <h6 class="mb-1 d-flex justify-content-between">
+                                <span>Bootstrap</span>
+                                <span class="fw-bold">90%</span>
+                            </h6>
+                            <div class="progress" role="progressbar" aria-label="Bootstrap progress" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-primary" style="width: 90%"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6 mb-4">
+                <div class="card shadow-sm h-100 border-0">
+                    <div class="card-body p-4">
+                        <h4 class="card-title text-primary mb-4">
+                            <i class="fas fa-server me-2"></i> Back-end & Infrastructure
+                        </h4>
+                        
+                        <div class="mb-3">
+                            <h6 class="mb-1 d-flex justify-content-between">
+                                <span>Informatique Bureautique</span>
+                                <span class="fw-bold">97%</span>
+                            </h6>
+                            <div class="progress" role="progressbar" aria-label="Python progress" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-success" style="width: 97%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <h6 class="mb-1 d-flex justify-content-between">
+                                <span>Infographie</span>
+                                <span class="fw-bold">70%</span>
+                            </h6>
+                            <div class="progress" role="progressbar" aria-label="DB progress" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-info" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <h6 class="mb-1 d-flex justify-content-between">
+                                <span>Maintenance</span>
+                                <span class="fw-bold">75%</span>
+                            </h6>
+                            <div class="progress" role="progressbar" aria-label="Git progress" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-warning" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-0">
+                            <h6 class="mb-1 d-flex justify-content-between">
+                                <span>Intelligence Artificielle</span>
+                                <span class="fw-bold">80%</span>
+                            </h6>
+                            <div class="progress" role="progressbar" aria-label="Figma progress" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-primary" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div> <div class="row mt-4">
+            <div class="col-12 text-center">
+                <h3 class="fw-bold text-dark mt-3">Compétences Transversales (Soft Skills)</h3>
+                <div class="d-flex flex-wrap justify-content-center mt-3">
+                    <span class="badge bg-primary text-white p-2 m-2">Résolution de Problèmes <i class="fas fa-lightbulb ms-1"></i></span>
+                    <span class="badge bg-info text-white p-2 m-2">Travail en Équipe <i class="fas fa-users ms-1"></i></span>
+                    <span class="badge bg-success text-white p-2 m-2">Gestion de Projet Agile <i class="fas fa-clipboard-check ms-1"></i></span>
+                    <span class="badge bg-warning text-dark p-2 m-2">Adaptabilité <i class="fas fa-cogs ms-1"></i></span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- projet -->
+<!-- SECTION : MES RÉALISATIONS -->
+ <style>
+.card-img-top {
+    width: 100%;
+    height: 220px; /* Même hauteur pour toutes les images */
+    object-fit: cover; /* Coupe proprement sans déformer */
+    border-radius: 8px 8px 0 0;
+}
+</style>
+
+<section id="projets" class="py-5 bg-light">
+    <div class="container">
+        
+        <!-- SECTION TITLE -->
+        <div class="text-center mb-5">
+            <h2 class="display-4 fw-bold">Mes Réalisations</h2>
+            <p class="lead text-muted">
+                Découvrez quelques projets que j’ai réalisés dans le développement web,
+                la bureautique, la maintenance informatique et l’infographie.
+            </p>
+        </div>
+
+        <!-- PROJECT GRID -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+            <!-- PROJET 1 : Portfolio Web -->
+            <div class="col">
+                <div class="card h-100 shadow-lg border-0">
+                    <img src="images/images.jpeg" alt="Photo de profil d'Aïcha Anne">
+                    <div class="card-body">
+                        <span class="badge bg-primary mb-2">Développement Web</span>
+                        <h5 class="card-title fw-bold">Création d’un Portfolio Personnel</h5>
+                        <p class="card-text text-muted small">
+                            Développement d’un site portfolio moderne en HTML, CSS et Bootstrap pour
+                            présenter mes compétences, projets, et services numériques.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-white border-0 d-flex justify-content-between">
+                        <a href="#" class="btn btn-outline-primary btn-sm">Voir le projet</a>
+                        <span class="text-info small">Techs : HTML, CSS, Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJET 2 : Gestion Bureautique -->
+            <div class="col">
+                <div class="card h-100 shadow-lg border-0">
+                    <img src="images/sddefault.jpg" class="card-img-top" alt="Document bureautique">
+                    <div class="card-body">
+                        <span class="badge bg-success mb-2">Bureautique</span>
+                        <h5 class="card-title fw-bold">Documents Administratifs Professionnels</h5>
+                        <p class="card-text text-muted small">
+                            Création de documents professionnels : CV, factures, tableaux Excel,
+                            présentations PowerPoint et rapports PDF pour entreprises et particuliers.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-white border-0 d-flex justify-content-between">
+                        <a href="#" class="btn btn-outline-success btn-sm">Voir exemples</a>
+                        <span class="text-info small">Outils : Word, Excel, PowerPoint</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJET 3 : Maintenance Informatique -->
+            <div class="col">
+                <div class="card h-100 shadow-lg border-0">
+                    <img src="images/image2.jpeg" class="card-img-top" alt="Maintenance informatique">
+                    <div class="card-body">
+                        <span class="badge bg-danger mb-2">Maintenance Informatique</span>
+                        <h5 class="card-title fw-bold">Dépannage & Maintenance Informatique</h5>
+                        <p class="card-text text-muted small">
+                            Diagnostic et réparation de pannes, installation de logiciels,
+                            optimisation des performances, nettoyage système et configuration.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-white border-0 d-flex justify-content-between">
+                        <a href="#" class="btn btn-outline-danger btn-sm">Voir détails</a>
+                        <span class="text-info small">Compétences : Windows, Drivers, Antivirus</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJET 4 : Affiches & Logos -->
+            <div class="col">
+                <div class="card h-100 shadow-lg border-0">
+                    <img src="images/image3.jpg" class="card-img-top" alt="Affiche infographie">
+                    <div class="card-body">
+                        <span class="badge bg-warning text-dark mb-2">Infographie</span>
+                        <h5 class="card-title fw-bold">Créations Graphiques & Logos</h5>
+                        <p class="card-text text-muted small">
+                            Conception de flyers, affiches publicitaires, logos professionnels
+                            et contenus visuels pour réseaux sociaux.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-white border-0 d-flex justify-content-between">
+                        <a href="#" class="btn btn-outline-warning btn-sm">Voir créations</a>
+                        <span class="text-info small">Outils : Canva, Photoshop</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJET 5 : Mini Application To-Do -->
+            <div class="col">
+                <div class="card h-100 shadow-lg border-0">
+                    <img src="images/JavaScript_code.png" class="card-img-top" alt="Projet To-Do App">
+                    <div class="card-body">
+                        <span class="badge bg-secondary mb-2">JavaScript</span>
+                        <h5 class="card-title fw-bold">Mini Application "To-Do List"</h5>
+                        <p class="card-text text-muted small">
+                            Développement d’une application simple permettant d’ajouter,
+                            supprimer et organiser des tâches avec un design clair et moderne.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-white border-0 d-flex justify-content-between">
+                        <a href="#" class="btn btn-outline-secondary btn-sm">Voir code</a>
+                        <span class="text-info small">Techs : HTML, CSS, JS</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJET 6 : Site Vitrine -->
+            <div class="col">
+                <div class="card h-100 shadow-lg border-0">
+                    <img src="images/which-web-design-platform-is-right-for-you.png" class="card-img-top" alt="Site vitrine">
+                    <div class="card-body">
+                        <span class="badge bg-info mb-2">Web Design</span>
+                        <h5 class="card-title fw-bold">Site Vitrine Professionnel</h5>
+                        <p class="card-text text-muted small">
+                            Création d'un site vitrine moderne pour présenter les services d'une petite entreprise :
+                            mise en page, identité visuelle et optimisation mobile.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-white border-0 d-flex justify-content-between">
+                        <a href="#" class="btn btn-outline-info btn-sm">Voir site</a>
+                        <span class="text-info small">Techs : HTML, CSS, Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BTN ALL PROJECTS -->
+        <div class="text-center mt-5">
+            <a href="#" class="btn btn-primary btn-lg">
+                Voir tous mes projets <i class="fab fa-github ms-2"></i>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- contact -->
+ <section id="contact" class="py-5 bg-light">
+    <div class="container">
+        
+        <div class="text-center mb-5">
+            <h2 class="display-4 fw-bold">Contactez-Moi</h2>
+            <p class="lead text-muted">Intéressé(e) par une collaboration ? Envoyez-moi un message !</p>
+        </div>
+        
+        <div class="row">
+            
+            <div class="col-lg-7 mb-4">
+                <div class="card shadow p-4 border-0 h-100">
+                    <form action="votre_script_de_traitement_ici.php" method="POST">
+                        
+                        <div class="mb-3">
+                            <label for="nom" class="form-label">Nom Complet</label>
+                            <input type="text" class="form-control" id="nom" name="nom" required>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Adresse Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="objet" class="form-label">Objet</label>
+                            <input type="text" class="form-control" id="objet" name="objet">
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Votre Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-lg w-100">
+                            Envoyer le Message <i class="fas fa-paper-plane ms-2"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="col-lg-5 mb-4">
+                <div class="card shadow p-4 border-0 h-100">
+                    <h5 class="fw-bold text-primary mb-3"><i class="fas fa-info-circle me-2"></i> Informations Clés</h5>
+                    
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-envelope fa-2x text-info me-3"></i>
+                        <div>
+                            <p class="mb-0 fw-bold">Email</p>
+                            <p class="text-muted small mb-0">aicha.anne@unchk.edu.snc</p>
+                        </div>
+                    </div>
+    </main>
+    <!-- footer -->
+    <footer class="bg-dark text-white py-4 mt-5 border-top border-info">
+    <div class="container text-center">
+        
+        <p class="lead text-info mb-3">
+            "Innover, c'est créer la connexion entre les idées et le monde."
+        </p>
+        
+        <hr class="w-25 mx-auto border-info">
+
+        <p class="text-muted small mb-0">
+            &copy; 2025 Aïcha Anne | Portfolio Digital. Tous droits réservés.
+        </p>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
